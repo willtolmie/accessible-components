@@ -1,14 +1,19 @@
-#cs1300-gallery {
-  background-color: lightblue;
+#logoBar{
+  width: 30vw;
+  height: 100vh;
 }
-
-/* Uncomment below if images are way too big.
-Selects all image tags and makes them 500px;
- */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
-
-.gallery-container {
-  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+#siteLogo{
+  width: 100%;
+}
+body {
+  display: flex;
+}
+#staffGallery{
+  width: 70vw;
+}
+.galleryImage{
+  display: block;
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
