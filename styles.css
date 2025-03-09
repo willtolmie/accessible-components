@@ -97,10 +97,12 @@ h3 {
   justify-self: center;
 }
 .short {
-  height: 400px;
+  height: 350px;
+  margin-bottom: 20px;
 }
 .medium {
   height: 500px;
+  margin-bottom: 60px;
 }
 .tall {
   height: 600px;
@@ -110,28 +112,21 @@ h3 {
   align-items: center;
   padding: 0 30%;
   text-align: left;
-  margin-top: 60px;
   margin-bottom: 60px;
 }
 br.wideBreak {
   margin-bottom: 10px;
 }
 #staffGallery {
-  align-self: flex-start;
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
-.galleryImage {
-  position: relative;
+.top {
+  align-self: flex-start;
 }
-.galleryImage:nth-child(1) {
-  top: 0px;
-}
-.galleryImage:nth-child(2) {
-  top: 40px;
-}
-.galleryImage:nth-child(3) {
-  top: 80px;
+.bottom {
+  align-self: flex-end;
 }
 .subheader {
   padding-left: 20%;
