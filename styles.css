@@ -154,6 +154,8 @@ br.wideBreak {
   align-self: flex-end;
 }
 .combinedHeaderContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }

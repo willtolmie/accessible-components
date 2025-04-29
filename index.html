@@ -1,20 +1,15 @@
-<!-- TO RUN IN BROWSER:
-    1. Install vscode extension Name: open in `browser open-in-browser` by TechER
-    2. Right click html file and either run in default browser or another browser
-  -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>an analysis of the accessibility of pop-up windows</title>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <title>Responsive Redesign</title>
+   <link rel="stylesheet" href="styles.css" />
   </head>
-  <!-- page content goes into <body> -->
   <body>
     <div id="logoBar">
-      <h1 class="left">STUDIO TOLMIE<span class="lineRight"></span></h1>
+      <a href="https://willtolmie.github.io/home/#projects" style="color: black;">
+      <h1 class="left"> RETURN TO WILL TOLMIE'S HOMEPAGE<span class="lineRight"></span></h1>
+      </a>
       <h1 class="right">
         <span class="lineLeft"></span>POP-UP WINDOW REDESIGN
       </h1>
@@ -123,7 +118,11 @@
             The first is the default state of the pop-up, the second occurs when a mouse hovers over the "YES, REMOVE THIS ITEM" button and the third occurs when the "YES, REMOVE THIS ITEM" button has been selected using the keyboard. 
         </div>
                 to evaluate the learnability, memorability, efficiency and accessibility of these components, we must look at them in every possible direction. in the context of digital interfaces, this looks like analyzing the inputs users can effect and resulting outputs users can experience when interacting with these components.
-        <h3>part 1: input</h3>
+         <div class="combinedHeaderContainer">
+            <h1 class="align-left">STEP ONE</h1>
+            <span class="line"></span>
+            <h1 class="align-right">INPUT</h1>
+          </div>
        
         the functionality of each of these components differs based on (mode of)
         input, <br />as shown in the following table
@@ -172,7 +171,11 @@
             </td>
           </tr>
         </table>
-        <h3>part 2: output</h3>
+         <div class="combinedHeaderContainer">
+            <h1 class="align-left">STEP TWO</h1>
+            <span class="line"></span>
+            <h1 class="align-right">OUTPUT</h1>
+          </div>
         while inputs change the internal state of a component, outputs are a
         representation of these changes in state. <br />outputs help to reveal
         the purpose of and current accessibility considerations for a component,
@@ -209,7 +212,11 @@
             </td>
           </tr>
         </table>
-        <h3>part 3: state models</h3>
+         <div class="combinedHeaderContainer">
+            <h1 class="align-left">STEP THREE</h1>
+            <span class="line"></span>
+            <h1 class="align-right">STATE MODELS</h1>
+          </div>
         using these observations about potential interactions with and
         accessibility considerations for the pop-up windows, <br />we can create
         state models to visualize how a user may interact with the lululemon
@@ -241,7 +248,11 @@
           <h4>revised lululemon pop-up window in the "focused" state</h4>
           <img class="figmaImage" src="./assets/focused.png" />
         </div>
-        <h3>part 5: reflection</h3>
+ <div class="combinedHeaderContainer">
+            <h1 class="align-left">STEP FOUR</h1>
+            <span class="line"></span>
+            <h1 class="align-right">REFLECTION</h1>
+          </div>
         <div class="reflection">
           • the components I observed were generally successful in
           usability/accessibility because they had hover states for mouse users.
